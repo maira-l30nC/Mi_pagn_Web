@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://image.slidesdocs.com/responsive-images/background/website-green-technology-sense-powerpoint-background_f255a18adc__960_540.jpg");
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0.5 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+main {
+    display: fle;
+    text-align: center;
+    font-size: 14px;
+}
+
+.sidebar {
+    width: 200px;
+    background: rgba(215, 128, 128, 0.5);
+    padding: 20px;
+}
+
+.sidebar .icon {
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.sidebar img {
+    width: 32px;
+    height: 32px;
+}
+
+.sidebar p {
+    margin: 0.5;
+    font-size: 14px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background: rgba(0, 0, 0.5, 0.5);
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+footer a {
+    margin: 0 20px;
+    color: #6ca3bc;
+    text-decoration: none;
+    
+}
+
+footer a:hover {
+    opacity: 0.8;
+}
